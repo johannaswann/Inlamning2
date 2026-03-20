@@ -19,7 +19,7 @@ och främmande nycklar (FK).
 <img width="665" height="541" alt="er-diagram" src="https://github.com/johannaswann/Inlamning2/blob/main/er-diagram.png?raw=true" />
 
 ## Reflektion och analys
-Jag designade min databasen med hjälp av MySQL och valde att dela upp den i separata tabeller för kunder, böcker, beställningar och orderrader för att göra strukturen tydligare och för att undvika duplicerad data. Med hjälp av primärnycklar (PK) och främmande nycklar (FK) kopplas tabellerna ihop så att datan hör ihop. 
+Jag designade min databasen med hjälp av MySQL och valde att dela upp den i separata tabeller för kunder, böcker, beställningar och orderrader för att göra strukturen tydligare och för att undvika duplicerad data. Med hjälp av primärnycklar (PK) och främmande nycklar (FK) kopplas tabellerna ihop så att datan hör samman. 
 
 Till exempel lagras kundens information bara i tabellen kunder och kopplas till beställningar med hjälp av KundID. En beställning kan innehålla flera orderrader, och varje orderrad är kopplad till en bok, vilket gör det enkelt att se vad en kund har beställt. 
 
